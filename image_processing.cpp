@@ -72,6 +72,8 @@ int CImageProcessor::DoProcess(cv::Mat* image) {
                 cv::calcHist(&hue, 1, 0, hue, m_hist, 1, &hsize, &phranges);
                 cv::normalize(m_hist, m_hist, 0, 255, cv::NORM_MINMAX);
                 
+                //ZaK: output of m_hist is missing
+                
             } else {
                 //  Tracking
                     
