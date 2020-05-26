@@ -12,6 +12,788 @@
         <in>cgi.cpp</in>
         <in>cgi.h</in>
       </df>
+      <df name="opencv">
+        <df name="arm-obj_rel">
+          <df name="include">
+            <df name="opencv">
+              <in>cv.h</in>
+              <in>cv.hpp</in>
+              <in>cvaux.h</in>
+              <in>cvaux.hpp</in>
+              <in>cvwimage.h</in>
+              <in>cxcore.h</in>
+              <in>cxcore.hpp</in>
+              <in>cxeigen.hpp</in>
+              <in>cxmisc.h</in>
+              <in>highgui.h</in>
+              <in>ml.h</in>
+            </df>
+            <df name="opencv2">
+              <df name="bioinspired">
+                <in>bioinspired.hpp</in>
+                <in>retina.hpp</in>
+                <in>retinafasttonemapping.hpp</in>
+                <in>transientareassegmentationmodule.hpp</in>
+              </df>
+              <df name="calib3d">
+                <in>calib3d.hpp</in>
+                <in>calib3d_c.h</in>
+              </df>
+              <df name="core">
+                <df name="cuda">
+                  <df name="detail">
+                    <in>color_detail.hpp</in>
+                    <in>reduce.hpp</in>
+                    <in>reduce_key_val.hpp</in>
+                    <in>transform_detail.hpp</in>
+                    <in>type_traits_detail.hpp</in>
+                    <in>vec_distance_detail.hpp</in>
+                  </df>
+                  <in>block.hpp</in>
+                  <in>border_interpolate.hpp</in>
+                  <in>color.hpp</in>
+                  <in>common.hpp</in>
+                  <in>datamov_utils.hpp</in>
+                  <in>dynamic_smem.hpp</in>
+                  <in>emulation.hpp</in>
+                  <in>filters.hpp</in>
+                  <in>funcattrib.hpp</in>
+                  <in>functional.hpp</in>
+                  <in>limits.hpp</in>
+                  <in>reduce.hpp</in>
+                  <in>saturate_cast.hpp</in>
+                  <in>scan.hpp</in>
+                  <in>simd_functions.hpp</in>
+                  <in>transform.hpp</in>
+                  <in>type_traits.hpp</in>
+                  <in>utility.hpp</in>
+                  <in>vec_distance.hpp</in>
+                  <in>vec_math.hpp</in>
+                  <in>vec_traits.hpp</in>
+                  <in>warp.hpp</in>
+                  <in>warp_reduce.hpp</in>
+                  <in>warp_shuffle.hpp</in>
+                </df>
+                <in>affine.hpp</in>
+                <in>base.hpp</in>
+                <in>bufferpool.hpp</in>
+                <in>core.hpp</in>
+                <in>core_c.h</in>
+                <in>cuda.hpp</in>
+                <in>cuda.inl.hpp</in>
+                <in>cuda_stream_accessor.hpp</in>
+                <in>cuda_types.hpp</in>
+                <in>cvdef.h</in>
+                <in>cvstd.hpp</in>
+                <in>cvstd.inl.hpp</in>
+                <in>directx.hpp</in>
+                <in>eigen.hpp</in>
+                <in>ippasync.hpp</in>
+                <in>mat.hpp</in>
+                <in>mat.inl.hpp</in>
+                <in>matx.hpp</in>
+                <in>ocl.hpp</in>
+                <in>ocl_genbase.hpp</in>
+                <in>opengl.hpp</in>
+                <in>operations.hpp</in>
+                <in>optim.hpp</in>
+                <in>persistence.hpp</in>
+                <in>private.cuda.hpp</in>
+                <in>private.hpp</in>
+                <in>ptr.inl.hpp</in>
+                <in>sse_utils.hpp</in>
+                <in>traits.hpp</in>
+                <in>types.hpp</in>
+                <in>types_c.h</in>
+                <in>utility.hpp</in>
+                <in>version.hpp</in>
+                <in>wimage.hpp</in>
+              </df>
+              <df name="cvv">
+                <in>call_meta_data.hpp</in>
+                <in>cvv.hpp</in>
+                <in>debug_mode.hpp</in>
+                <in>dmatch.hpp</in>
+                <in>filter.hpp</in>
+                <in>final_show.hpp</in>
+                <in>show_image.hpp</in>
+              </df>
+              <df name="datasets">
+                <df name="tinyxml2">
+                  <in>tinyxml2.h</in>
+                </df>
+                <in>ar_hmdb.hpp</in>
+                <in>ar_sports.hpp</in>
+                <in>dataset.hpp</in>
+                <in>fr_adience.hpp</in>
+                <in>fr_lfw.hpp</in>
+                <in>gr_chalearn.hpp</in>
+                <in>gr_skig.hpp</in>
+                <in>hpe_humaneva.hpp</in>
+                <in>hpe_parse.hpp</in>
+                <in>ir_affine.hpp</in>
+                <in>ir_robot.hpp</in>
+                <in>is_bsds.hpp</in>
+                <in>is_weizmann.hpp</in>
+                <in>msm_epfl.hpp</in>
+                <in>msm_middlebury.hpp</in>
+                <in>or_imagenet.hpp</in>
+                <in>or_mnist.hpp</in>
+                <in>or_pascal.hpp</in>
+                <in>or_sun.hpp</in>
+                <in>pd_caltech.hpp</in>
+                <in>pd_inria.hpp</in>
+                <in>slam_kitti.hpp</in>
+                <in>slam_tumindoor.hpp</in>
+                <in>tr_chars.hpp</in>
+                <in>tr_svt.hpp</in>
+                <in>util.hpp</in>
+              </df>
+              <df name="face">
+                <in>facerec.hpp</in>
+              </df>
+              <df name="features2d">
+                <in>features2d.hpp</in>
+              </df>
+              <df name="flann">
+                <in>all_indices.h</in>
+                <in>allocator.h</in>
+                <in>any.h</in>
+                <in>autotuned_index.h</in>
+                <in>composite_index.h</in>
+                <in>config.h</in>
+                <in>defines.h</in>
+                <in>dist.h</in>
+                <in>dummy.h</in>
+                <in>dynamic_bitset.h</in>
+                <in>flann.hpp</in>
+                <in>flann_base.hpp</in>
+                <in>general.h</in>
+                <in>ground_truth.h</in>
+                <in>hdf5.h</in>
+                <in>heap.h</in>
+                <in>hierarchical_clustering_index.h</in>
+                <in>index_testing.h</in>
+                <in>kdtree_index.h</in>
+                <in>kdtree_single_index.h</in>
+                <in>kmeans_index.h</in>
+                <in>linear_index.h</in>
+                <in>logger.h</in>
+                <in>lsh_index.h</in>
+                <in>lsh_table.h</in>
+                <in>matrix.h</in>
+                <in>miniflann.hpp</in>
+                <in>nn_index.h</in>
+                <in>object_factory.h</in>
+                <in>params.h</in>
+                <in>random.h</in>
+                <in>result_set.h</in>
+                <in>sampling.h</in>
+                <in>saving.h</in>
+                <in>simplex_downhill.h</in>
+                <in>timer.h</in>
+              </df>
+              <df name="hal">
+                <in>defs.h</in>
+                <in>intrin.hpp</in>
+                <in>intrin_cpp.hpp</in>
+                <in>intrin_neon.hpp</in>
+                <in>intrin_sse.hpp</in>
+              </df>
+              <df name="highgui">
+                <in>highgui.hpp</in>
+                <in>highgui_c.h</in>
+              </df>
+              <df name="imgcodecs">
+                <in>imgcodecs.hpp</in>
+                <in>imgcodecs_c.h</in>
+                <in>ios.h</in>
+              </df>
+              <df name="imgproc">
+                <in>imgproc.hpp</in>
+                <in>imgproc_c.h</in>
+                <in>types_c.h</in>
+              </df>
+              <df name="line_descriptor">
+                <in>descriptor.hpp</in>
+              </df>
+              <df name="matlab">
+                <in>bridge.hpp</in>
+                <in>map.hpp</in>
+                <in>mxarray.hpp</in>
+                <in>transpose.hpp</in>
+              </df>
+              <df name="ml">
+                <in>ml.hpp</in>
+              </df>
+              <df name="objdetect">
+                <in>detection_based_tracker.hpp</in>
+                <in>objdetect.hpp</in>
+                <in>objdetect_c.h</in>
+              </df>
+              <df name="optflow">
+                <in>motempl.hpp</in>
+              </df>
+              <df name="photo">
+                <in>cuda.hpp</in>
+                <in>photo.hpp</in>
+                <in>photo_c.h</in>
+              </df>
+              <df name="reg">
+                <in>map.hpp</in>
+                <in>mapaffine.hpp</in>
+                <in>mapper.hpp</in>
+                <in>mappergradaffine.hpp</in>
+                <in>mappergradeuclid.hpp</in>
+                <in>mappergradproj.hpp</in>
+                <in>mappergradshift.hpp</in>
+                <in>mappergradsimilar.hpp</in>
+                <in>mapperpyramid.hpp</in>
+                <in>mapprojec.hpp</in>
+                <in>mapshift.hpp</in>
+              </df>
+              <df name="rgbd">
+                <in>linemod.hpp</in>
+              </df>
+              <df name="saliency">
+                <in>saliencyBaseClasses.hpp</in>
+                <in>saliencySpecializedClasses.hpp</in>
+              </df>
+              <df name="shape">
+                <in>emdL1.hpp</in>
+                <in>hist_cost.hpp</in>
+                <in>shape.hpp</in>
+                <in>shape_distance.hpp</in>
+                <in>shape_transformer.hpp</in>
+              </df>
+              <df name="stereo">
+                <in>stereo.hpp</in>
+              </df>
+              <df name="stitching">
+                <df name="detail">
+                  <in>autocalib.hpp</in>
+                  <in>blenders.hpp</in>
+                  <in>camera.hpp</in>
+                  <in>exposure_compensate.hpp</in>
+                  <in>matchers.hpp</in>
+                  <in>motion_estimators.hpp</in>
+                  <in>seam_finders.hpp</in>
+                  <in>timelapsers.hpp</in>
+                  <in>util.hpp</in>
+                  <in>util_inl.hpp</in>
+                  <in>warpers.hpp</in>
+                  <in>warpers_inl.hpp</in>
+                </df>
+                <in>warpers.hpp</in>
+              </df>
+              <df name="superres">
+                <in>optical_flow.hpp</in>
+              </df>
+              <df name="surface_matching">
+                <in>icp.hpp</in>
+                <in>pose_3d.hpp</in>
+                <in>ppf_helpers.hpp</in>
+                <in>ppf_match_3d.hpp</in>
+                <in>t_hash_int.hpp</in>
+              </df>
+              <df name="text">
+                <in>erfilter.hpp</in>
+                <in>ocr.hpp</in>
+              </df>
+              <df name="tracking">
+                <in>feature.hpp</in>
+                <in>onlineBoosting.hpp</in>
+                <in>onlineMIL.hpp</in>
+                <in>tldDataset.hpp</in>
+                <in>tracker.hpp</in>
+                <in>tracking.hpp</in>
+              </df>
+              <df name="video">
+                <in>background_segm.hpp</in>
+                <in>tracking.hpp</in>
+                <in>tracking_c.h</in>
+                <in>video.hpp</in>
+              </df>
+              <df name="videoio">
+                <in>cap_ios.h</in>
+                <in>videoio.hpp</in>
+                <in>videoio_c.h</in>
+              </df>
+              <df name="videostab">
+                <in>deblurring.hpp</in>
+                <in>fast_marching.hpp</in>
+                <in>fast_marching_inl.hpp</in>
+                <in>frame_source.hpp</in>
+                <in>global_motion.hpp</in>
+                <in>inpainting.hpp</in>
+                <in>log.hpp</in>
+                <in>motion_core.hpp</in>
+                <in>motion_stabilizing.hpp</in>
+                <in>optical_flow.hpp</in>
+                <in>outlier_rejection.hpp</in>
+                <in>ring_buffer.hpp</in>
+                <in>stabilizer.hpp</in>
+                <in>wobble_suppression.hpp</in>
+              </df>
+              <df name="xfeatures2d">
+                <in>cuda.hpp</in>
+                <in>nonfree.hpp</in>
+              </df>
+              <df name="ximgproc">
+                <in>disparity_filter.hpp</in>
+                <in>edge_filter.hpp</in>
+                <in>seeds.hpp</in>
+                <in>structured_edge_detection.hpp</in>
+              </df>
+              <df name="xobjdetect">
+                <in>private.hpp</in>
+              </df>
+              <df name="xphoto">
+                <in>dct_image_denoising.hpp</in>
+                <in>inpainting.hpp</in>
+                <in>white_balance.hpp</in>
+              </df>
+              <in>adas.hpp</in>
+              <in>bgsegm.hpp</in>
+              <in>bioinspired.hpp</in>
+              <in>calib3d.hpp</in>
+              <in>ccalib.hpp</in>
+              <in>contrib_world.hpp</in>
+              <in>core.hpp</in>
+              <in>cvconfig.h</in>
+              <in>cvv.hpp</in>
+              <in>face.hpp</in>
+              <in>features2d.hpp</in>
+              <in>flann.hpp</in>
+              <in>hal.hpp</in>
+              <in>highgui.hpp</in>
+              <in>imgcodecs.hpp</in>
+              <in>imgproc.hpp</in>
+              <in>latentsvm.hpp</in>
+              <in>line_descriptor.hpp</in>
+              <in>ml.hpp</in>
+              <in>objdetect.hpp</in>
+              <in>opencv.hpp</in>
+              <in>opencv_modules.hpp</in>
+              <in>optflow.hpp</in>
+              <in>photo.hpp</in>
+              <in>rgbd.hpp</in>
+              <in>saliency.hpp</in>
+              <in>shape.hpp</in>
+              <in>stereo.hpp</in>
+              <in>stitching.hpp</in>
+              <in>superres.hpp</in>
+              <in>surface_matching.hpp</in>
+              <in>text.hpp</in>
+              <in>tracking.hpp</in>
+              <in>video.hpp</in>
+              <in>videoio.hpp</in>
+              <in>videostab.hpp</in>
+              <in>xfeatures2d.hpp</in>
+              <in>ximgproc.hpp</in>
+              <in>xobjdetect.hpp</in>
+              <in>xphoto.hpp</in>
+            </df>
+          </df>
+          <df name="lib">
+            <df name="pkgconfig">
+            </df>
+          </df>
+          <df name="share">
+            <df name="OpenCV">
+              <df name="3rdparty">
+                <df name="lib">
+                </df>
+              </df>
+              <df name="haarcascades">
+              </df>
+              <df name="lbpcascades">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="linux-obj_rel">
+          <df name="bin">
+          </df>
+          <df name="include">
+            <df name="opencv">
+              <in>cv.h</in>
+              <in>cv.hpp</in>
+              <in>cvaux.h</in>
+              <in>cvaux.hpp</in>
+              <in>cvwimage.h</in>
+              <in>cxcore.h</in>
+              <in>cxcore.hpp</in>
+              <in>cxeigen.hpp</in>
+              <in>cxmisc.h</in>
+              <in>highgui.h</in>
+              <in>ml.h</in>
+            </df>
+            <df name="opencv2">
+              <df name="bioinspired">
+                <in>bioinspired.hpp</in>
+                <in>retina.hpp</in>
+                <in>retinafasttonemapping.hpp</in>
+                <in>transientareassegmentationmodule.hpp</in>
+              </df>
+              <df name="calib3d">
+                <in>calib3d.hpp</in>
+                <in>calib3d_c.h</in>
+              </df>
+              <df name="core">
+                <df name="cuda">
+                  <df name="detail">
+                    <in>color_detail.hpp</in>
+                    <in>reduce.hpp</in>
+                    <in>reduce_key_val.hpp</in>
+                    <in>transform_detail.hpp</in>
+                    <in>type_traits_detail.hpp</in>
+                    <in>vec_distance_detail.hpp</in>
+                  </df>
+                  <in>block.hpp</in>
+                  <in>border_interpolate.hpp</in>
+                  <in>color.hpp</in>
+                  <in>common.hpp</in>
+                  <in>datamov_utils.hpp</in>
+                  <in>dynamic_smem.hpp</in>
+                  <in>emulation.hpp</in>
+                  <in>filters.hpp</in>
+                  <in>funcattrib.hpp</in>
+                  <in>functional.hpp</in>
+                  <in>limits.hpp</in>
+                  <in>reduce.hpp</in>
+                  <in>saturate_cast.hpp</in>
+                  <in>scan.hpp</in>
+                  <in>simd_functions.hpp</in>
+                  <in>transform.hpp</in>
+                  <in>type_traits.hpp</in>
+                  <in>utility.hpp</in>
+                  <in>vec_distance.hpp</in>
+                  <in>vec_math.hpp</in>
+                  <in>vec_traits.hpp</in>
+                  <in>warp.hpp</in>
+                  <in>warp_reduce.hpp</in>
+                  <in>warp_shuffle.hpp</in>
+                </df>
+                <in>affine.hpp</in>
+                <in>base.hpp</in>
+                <in>bufferpool.hpp</in>
+                <in>core.hpp</in>
+                <in>core_c.h</in>
+                <in>cuda.hpp</in>
+                <in>cuda.inl.hpp</in>
+                <in>cuda_stream_accessor.hpp</in>
+                <in>cuda_types.hpp</in>
+                <in>cvdef.h</in>
+                <in>cvstd.hpp</in>
+                <in>cvstd.inl.hpp</in>
+                <in>directx.hpp</in>
+                <in>eigen.hpp</in>
+                <in>ippasync.hpp</in>
+                <in>mat.hpp</in>
+                <in>mat.inl.hpp</in>
+                <in>matx.hpp</in>
+                <in>ocl.hpp</in>
+                <in>ocl_genbase.hpp</in>
+                <in>opengl.hpp</in>
+                <in>operations.hpp</in>
+                <in>optim.hpp</in>
+                <in>persistence.hpp</in>
+                <in>private.cuda.hpp</in>
+                <in>private.hpp</in>
+                <in>ptr.inl.hpp</in>
+                <in>sse_utils.hpp</in>
+                <in>traits.hpp</in>
+                <in>types.hpp</in>
+                <in>types_c.h</in>
+                <in>utility.hpp</in>
+                <in>version.hpp</in>
+                <in>wimage.hpp</in>
+              </df>
+              <df name="datasets">
+                <in>ar_hmdb.hpp</in>
+                <in>ar_sports.hpp</in>
+                <in>dataset.hpp</in>
+                <in>fr_adience.hpp</in>
+                <in>fr_lfw.hpp</in>
+                <in>gr_chalearn.hpp</in>
+                <in>gr_skig.hpp</in>
+                <in>hpe_humaneva.hpp</in>
+                <in>hpe_parse.hpp</in>
+                <in>ir_affine.hpp</in>
+                <in>ir_robot.hpp</in>
+                <in>is_bsds.hpp</in>
+                <in>is_weizmann.hpp</in>
+                <in>msm_epfl.hpp</in>
+                <in>msm_middlebury.hpp</in>
+                <in>or_imagenet.hpp</in>
+                <in>or_mnist.hpp</in>
+                <in>or_pascal.hpp</in>
+                <in>or_sun.hpp</in>
+                <in>pd_caltech.hpp</in>
+                <in>pd_inria.hpp</in>
+                <in>slam_kitti.hpp</in>
+                <in>slam_tumindoor.hpp</in>
+                <in>tr_chars.hpp</in>
+                <in>tr_svt.hpp</in>
+                <in>util.hpp</in>
+              </df>
+              <df name="face">
+                <in>facerec.hpp</in>
+              </df>
+              <df name="features2d">
+                <in>features2d.hpp</in>
+              </df>
+              <df name="flann">
+                <in>all_indices.h</in>
+                <in>allocator.h</in>
+                <in>any.h</in>
+                <in>autotuned_index.h</in>
+                <in>composite_index.h</in>
+                <in>config.h</in>
+                <in>defines.h</in>
+                <in>dist.h</in>
+                <in>dummy.h</in>
+                <in>dynamic_bitset.h</in>
+                <in>flann.hpp</in>
+                <in>flann_base.hpp</in>
+                <in>general.h</in>
+                <in>ground_truth.h</in>
+                <in>hdf5.h</in>
+                <in>heap.h</in>
+                <in>hierarchical_clustering_index.h</in>
+                <in>index_testing.h</in>
+                <in>kdtree_index.h</in>
+                <in>kdtree_single_index.h</in>
+                <in>kmeans_index.h</in>
+                <in>linear_index.h</in>
+                <in>logger.h</in>
+                <in>lsh_index.h</in>
+                <in>lsh_table.h</in>
+                <in>matrix.h</in>
+                <in>miniflann.hpp</in>
+                <in>nn_index.h</in>
+                <in>object_factory.h</in>
+                <in>params.h</in>
+                <in>random.h</in>
+                <in>result_set.h</in>
+                <in>sampling.h</in>
+                <in>saving.h</in>
+                <in>simplex_downhill.h</in>
+                <in>timer.h</in>
+              </df>
+              <df name="hal">
+                <in>defs.h</in>
+                <in>intrin.hpp</in>
+                <in>intrin_cpp.hpp</in>
+                <in>intrin_neon.hpp</in>
+                <in>intrin_sse.hpp</in>
+              </df>
+              <df name="highgui">
+                <in>highgui.hpp</in>
+                <in>highgui_c.h</in>
+              </df>
+              <df name="imgcodecs">
+                <in>imgcodecs.hpp</in>
+                <in>imgcodecs_c.h</in>
+                <in>ios.h</in>
+              </df>
+              <df name="imgproc">
+                <in>imgproc.hpp</in>
+                <in>imgproc_c.h</in>
+                <in>types_c.h</in>
+              </df>
+              <df name="line_descriptor">
+                <in>descriptor.hpp</in>
+              </df>
+              <df name="ml">
+                <in>ml.hpp</in>
+              </df>
+              <df name="objdetect">
+                <in>detection_based_tracker.hpp</in>
+                <in>objdetect.hpp</in>
+                <in>objdetect_c.h</in>
+              </df>
+              <df name="optflow">
+                <in>motempl.hpp</in>
+              </df>
+              <df name="photo">
+                <in>cuda.hpp</in>
+                <in>photo.hpp</in>
+                <in>photo_c.h</in>
+              </df>
+              <df name="reg">
+                <in>map.hpp</in>
+                <in>mapaffine.hpp</in>
+                <in>mapper.hpp</in>
+                <in>mappergradaffine.hpp</in>
+                <in>mappergradeuclid.hpp</in>
+                <in>mappergradproj.hpp</in>
+                <in>mappergradshift.hpp</in>
+                <in>mappergradsimilar.hpp</in>
+                <in>mapperpyramid.hpp</in>
+                <in>mapprojec.hpp</in>
+                <in>mapshift.hpp</in>
+              </df>
+              <df name="rgbd">
+                <in>linemod.hpp</in>
+              </df>
+              <df name="saliency">
+                <in>saliencyBaseClasses.hpp</in>
+                <in>saliencySpecializedClasses.hpp</in>
+              </df>
+              <df name="shape">
+                <in>emdL1.hpp</in>
+                <in>hist_cost.hpp</in>
+                <in>shape.hpp</in>
+                <in>shape_distance.hpp</in>
+                <in>shape_transformer.hpp</in>
+              </df>
+              <df name="stereo">
+                <in>stereo.hpp</in>
+              </df>
+              <df name="stitching">
+                <df name="detail">
+                  <in>autocalib.hpp</in>
+                  <in>blenders.hpp</in>
+                  <in>camera.hpp</in>
+                  <in>exposure_compensate.hpp</in>
+                  <in>matchers.hpp</in>
+                  <in>motion_estimators.hpp</in>
+                  <in>seam_finders.hpp</in>
+                  <in>timelapsers.hpp</in>
+                  <in>util.hpp</in>
+                  <in>util_inl.hpp</in>
+                  <in>warpers.hpp</in>
+                  <in>warpers_inl.hpp</in>
+                </df>
+                <in>warpers.hpp</in>
+              </df>
+              <df name="superres">
+                <in>optical_flow.hpp</in>
+              </df>
+              <df name="surface_matching">
+                <in>icp.hpp</in>
+                <in>pose_3d.hpp</in>
+                <in>ppf_helpers.hpp</in>
+                <in>ppf_match_3d.hpp</in>
+                <in>t_hash_int.hpp</in>
+              </df>
+              <df name="text">
+                <in>erfilter.hpp</in>
+                <in>ocr.hpp</in>
+              </df>
+              <df name="tracking">
+                <in>feature.hpp</in>
+                <in>onlineBoosting.hpp</in>
+                <in>onlineMIL.hpp</in>
+                <in>tldDataset.hpp</in>
+                <in>tracker.hpp</in>
+                <in>tracking.hpp</in>
+              </df>
+              <df name="video">
+                <in>background_segm.hpp</in>
+                <in>tracking.hpp</in>
+                <in>tracking_c.h</in>
+                <in>video.hpp</in>
+              </df>
+              <df name="videoio">
+                <in>cap_ios.h</in>
+                <in>videoio.hpp</in>
+                <in>videoio_c.h</in>
+              </df>
+              <df name="videostab">
+                <in>deblurring.hpp</in>
+                <in>fast_marching.hpp</in>
+                <in>fast_marching_inl.hpp</in>
+                <in>frame_source.hpp</in>
+                <in>global_motion.hpp</in>
+                <in>inpainting.hpp</in>
+                <in>log.hpp</in>
+                <in>motion_core.hpp</in>
+                <in>motion_stabilizing.hpp</in>
+                <in>optical_flow.hpp</in>
+                <in>outlier_rejection.hpp</in>
+                <in>ring_buffer.hpp</in>
+                <in>stabilizer.hpp</in>
+                <in>wobble_suppression.hpp</in>
+              </df>
+              <df name="xfeatures2d">
+                <in>cuda.hpp</in>
+                <in>nonfree.hpp</in>
+              </df>
+              <df name="ximgproc">
+                <in>disparity_filter.hpp</in>
+                <in>edge_filter.hpp</in>
+                <in>seeds.hpp</in>
+                <in>structured_edge_detection.hpp</in>
+              </df>
+              <df name="xobjdetect">
+                <in>private.hpp</in>
+              </df>
+              <df name="xphoto">
+                <in>dct_image_denoising.hpp</in>
+                <in>inpainting.hpp</in>
+                <in>white_balance.hpp</in>
+              </df>
+              <in>adas.hpp</in>
+              <in>bgsegm.hpp</in>
+              <in>bioinspired.hpp</in>
+              <in>calib3d.hpp</in>
+              <in>ccalib.hpp</in>
+              <in>core.hpp</in>
+              <in>cvconfig.h</in>
+              <in>face.hpp</in>
+              <in>features2d.hpp</in>
+              <in>flann.hpp</in>
+              <in>hal.hpp</in>
+              <in>highgui.hpp</in>
+              <in>imgcodecs.hpp</in>
+              <in>imgproc.hpp</in>
+              <in>latentsvm.hpp</in>
+              <in>line_descriptor.hpp</in>
+              <in>ml.hpp</in>
+              <in>objdetect.hpp</in>
+              <in>opencv.hpp</in>
+              <in>opencv_modules.hpp</in>
+              <in>optflow.hpp</in>
+              <in>photo.hpp</in>
+              <in>rgbd.hpp</in>
+              <in>saliency.hpp</in>
+              <in>shape.hpp</in>
+              <in>stereo.hpp</in>
+              <in>stitching.hpp</in>
+              <in>superres.hpp</in>
+              <in>surface_matching.hpp</in>
+              <in>text.hpp</in>
+              <in>tracking.hpp</in>
+              <in>video.hpp</in>
+              <in>videoio.hpp</in>
+              <in>videostab.hpp</in>
+              <in>xfeatures2d.hpp</in>
+              <in>ximgproc.hpp</in>
+              <in>xobjdetect.hpp</in>
+              <in>xphoto.hpp</in>
+            </df>
+          </df>
+          <df name="lib">
+            <df name="pkgconfig">
+            </df>
+          </df>
+          <df name="share">
+            <df name="OpenCV">
+              <df name="3rdparty">
+                <df name="lib">
+                </df>
+              </df>
+              <df name="haarcascades">
+              </df>
+              <df name="lbpcascades">
+              </df>
+            </df>
+          </df>
+        </df>
+      </df>
       <df name="oscar">
         <df name="bmp">
           <df name="build">
@@ -202,8 +984,6 @@
         <in>oscar.c</in>
         <in>oscar.h</in>
       </df>
-      <df name="web_view_cpp.app">
-      </df>
       <df name="www">
         <df name="cgi-bin">
         </df>
@@ -254,8 +1034,6 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
-        <gdb_signals>
-        </gdb_signals>
         <gdb_options>
           <DebugOptions>
             <option name="symbol_file" value="./app_host"/>
