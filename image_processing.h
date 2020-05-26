@@ -38,7 +38,7 @@ private:
         int m_counter;
         
         cv::Rect m_trackWindow;
-        
+       
         cv::Mat m_hist;
         
         bool m_startButton;  
