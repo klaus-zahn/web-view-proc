@@ -41,6 +41,7 @@ private:
         
         cv::Mat m_hist;
         
+               
         bool m_startButton;  
         
         int m_valueMin;
