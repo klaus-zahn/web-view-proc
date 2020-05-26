@@ -6,7 +6,6 @@
 #define IMAGE_PROCESSING_H_
 
 #include "opencv.hpp"
-
 #include "includes.h"
 #include "camera.h"
 
@@ -48,6 +47,8 @@ private:
         int m_valueMax;
         
         int m_saturationMin;
+        
+        
 };
 
 
