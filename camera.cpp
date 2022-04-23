@@ -145,9 +145,9 @@ void CCamera::AdjustImageHeader(cv::Mat*& img, int channel_count) {
 		
 		if(img) delete img;
                 if(channel_count==1){
-                    img=new cv::Mat(cvSize(m_roi.width, m_roi.height), CV_8UC1);
+                    img=new cv::Mat(cv::Size(m_roi.width, m_roi.height), CV_8UC1);
                 } else if(channel_count==3){
-                    img=new cv::Mat(cvSize(m_roi.width, m_roi.height), CV_8UC3);
+                    img=new cv::Mat(cv::Size(m_roi.width, m_roi.height), CV_8UC3);
                 } else {
                     OscLog(ERROR, "channel_count not supported");
                 }

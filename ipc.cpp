@@ -325,7 +325,7 @@ OSC_ERR CIPC::WriteArgument(const char * pKey, const char * pValue) {
 OSC_ERR CIPC::WriteImage(const cv::Mat img) {
 	
         std::vector<int> qualityType;
-        qualityType.push_back(CV_IMWRITE_JPEG_QUALITY);
+        qualityType.push_back(cv::IMWRITE_JPEG_QUALITY);
         qualityType.push_back(90);
 
         std::vector<uchar> buf;

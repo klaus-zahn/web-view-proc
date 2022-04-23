@@ -119,7 +119,7 @@ APPS := $(patsubst SOURCES_%, %, $(filter SOURCES_%, $(.VARIABLES)))
 ifeq '$(CONFIG_ENABLE_SIMULATION)' 'y'
 LIBS_target := $(LIBS_target)_sim
 endif
-ifeq '$(CONFIG_ENABLE_DEBUG)' 'y'
+ifeq '$(CONFIG_ENABLE_DEBUG)' 'n'
 LIBS_host := $(addsuffix _dbg, $(LIBS_host))
 LIBS_target := $(addsuffix _dbg, $(LIBS_target))
 OSC_CC_LIBS_host := $(addsuffix _dbg, $(OSC_CC_LIBS_host))
